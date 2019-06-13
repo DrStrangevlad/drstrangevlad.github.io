@@ -1,0 +1,741 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link-product-catalog {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 19px 10px;
+    text-transform: uppercase;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-product {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 19px 10px;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    position: relative;
+}
+
+.button:hover {
+    box-shadow: 1px 5px 6px 2px rgba(33, 33, 33, 0.35);
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.explore {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    padding-top: 18px;
+}
+
+.featured-product {
+    height: 369px;
+    padding: 120px;
+    padding-bottom: 120px;
+    position: relative;
+    width: 1170px;
+}
+
+.product {
+    float: left;
+    position: relative;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.product-text {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400;
+    width: 215px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 65px;
+    display: none;
+}
+
+.menu-product {
+    width: 300px;
+    border-bottom: 1px solid #6c6c6c;
+    padding-bottom: 19px;
+}
+
+.menu-link-active-product {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.product-circle {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url(img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    left: 111px;
+    bottom: 160px;
+    display: none;
+}
+
+.arrow {
+    padding-left: 12px;
+    height: 12px;
+    width: 9px;
+}
+
+.product-h {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    left: 63px;
+    bottom: 124px;
+    display: none;
+}
+
+.promo-img {
+    width: 683px;
+    height: 683px;
+    float: left;
+    position: relative;
+}
+
+.promo-button {
+    display: inline-block;
+    position: absolute;
+    top: 361px;
+    left: 50px;
+}
+
+.promo-exclusive {
+    display: inline-block;
+    position: absolute;
+    top: 211px;
+    left: 51px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.promo-h {
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 52px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.promo-text {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width: 374px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.trending {
+    padding-top: 119px;
+    padding-bottom: 120px;
+}
+
+h3 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.slider-hot {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+.slider-hot-text {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo-img-small {
+    float: left;
+    position: relative;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.promo-small {
+    margin-top: 120px;
+    float: left;
+    width: 1170px;
+    height: 570px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.product-last {
+    padding-right: 0px;
+}
+
+.app-back {
+    clear: both;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.appstore {
+    display: inline-block;
+    position: absolute;
+    left: 98px;
+    bottom: 120px;
+}
+
+.google-play {
+    display: inline-block;
+    position: absolute;
+    left: 243px;
+    bottom: 120px;
+}
+
+.mobile-app {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.follow {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 480px;
+    padding-top: 15px;
+}
+
+.save {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.footer {
+    padding-top: 120px;
+    background-color: #f7f7f7;
+}
+
+.useful-info {
+    list-style-type: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: left;
+    line-height: 26px;
+    padding-right: 50px;
+}
+
+.footer-list {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.contact {
+    width: 221px;
+    padding-right: 80px;
+    padding-bottom: 77px;
+}
+
+.footer-menu {
+    float: left;
+}
+
+.useful {
+    width: 422px;
+    padding-right: 75px;
+    padding-bottom: 105px;
+}
+
+.subscribe {
+    width: 370px;
+    padding-bottom: 67px;
+}
+
+.field {
+    margin-top: 43px;
+    width: 370px;
+    height: 48px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.address {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.subscribe-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 39px;
+    padding-top: 9px;
+}
+
+.terms {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 9px;
+}
+
+.sm {
+    padding-left: 158px;
+    padding-right: 172px;
+}
+
+.foot {
+    float: left;
+}
+
+.product:hover .product-circle {
+    display: block;
+}
+
+.product:hover .product-text {
+    display: block;
+}
+
+.product:hover .product-h {
+    display: block;
+}
+
+.white {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    display: none;
+    width: 270px;
+    height: 270px;
+    border: 1px solid #9c9c9c;
+}
+
+.product:hover .white {
+    display: block;
+}
+
+.foot:hover {
+    color: ##383838;
+}
+
+form {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.field {
+    display: block;
+}
+
+.submit-button {
+    position: absolute;
+    right: 10px;
+    bottom: 19px;
+    border: none;
+    display: block;
+    background-image: url(img/submit.png);
+    background-color: #fff;
+    width: 21px;
+    height: 17px;
+}
+
+.menu-link-product:hover {
+    color: #212121;
+}
+
+.explore:hover {
+    color: #6c6c6c;
+}
+
+.useful-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.useful-link:hover {
+    color: #6c6c6c;
+}
+
+.arrow-button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.appstore:hover {
+    box-shadow: 3px 3px 3px 3px rgba(33, 33, 33, 0.35);
+}
+
+.google-play:hover {
+    box-shadow: 3px 3px 3px 3px rgba(33, 33, 33, 0.35);
+}
+
+.inner-header {
+    background-color: #f5f5f5;
+    height: 320px;
+}
+
+h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    padding-top: 168px;
+}
+
+.menu-product-catalog {
+    width: 570px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.refresh {
+    padding-top: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contacts {
+    height: 563px;
+}
+
+.contact-card {
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    text-align: center;
+    margin-right: 18px;
+    margin-top: 70px;
+}
+
+.map {
+    padding-top: 36px;
+    padding-bottom: 24px;
+}
+
+.contact-info {
+    position: absolute;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 36px;
+    text-align: center;
+}
+
+.email-phone {
+    color: #212121;
+    line-height: 3;
+}
+
+.city {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+td {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-product-page {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    height: 70px;
+    padding-right: 50%;
+}
+
+.menu-link-active-product-page {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.list-prod {
+    padding: 25px 5px;
+}
+
+.menu-pr {
+    position: relative;
+    left: 50%;
+}
+
+.product-card {
+    margin-top: 70px;
+}
+
+.gallery {
+    width: 570px;
+}
+
+.control-img {
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-description {
+    float: right;
+    width: 518px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.control-img:hover {
+    outline: 1px solid #000;
+}
+
+.price {
+    margin-top: 36px;
+    color: #212121;
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 48.02px;
+    margin-bottom: 30px;
+}
+
+.number-price {
+    font-size: 72px;
+}
+
+.product-card-text {
+    text-align: left;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Gotham';
+    line-height: 24px;
+}
+
+.button-card {
+    width: 510px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    margin-bottom: 36px;
+    text-align: center;
+    color: #fff;
+    line-height: 66px;
+    font-size: 22px;
+}
+
+.arrow-white {
+    padding-left: 12px;
+    height: 20px;
+    width: 13px;
+}
+
+.control {
+    position: relative;
+    left: 150px;
+}
+
+.product-circle:hover {
+    box-shadow: 0 3px 6px 2px rgba(33, 33, 33, 0.35);
+    cursor: pointer;
+}
+
+.menu-link-product-catalog:hover {
+    color: #212121;
+}

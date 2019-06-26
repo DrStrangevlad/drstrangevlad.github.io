@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.form__browse {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    padding: 12px;
+}
+
+.logo {
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.logo_d {
+    color: #f16d7f;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+    height: 38px;
+}
+
+.logo__img {
+    margin-right: 13px;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 0.38px;
+    padding-left: 19px;
+    background-color: #f16d7f;
+    padding-right: 19px;
+}
+
+.header__cart {
+    margin-right: 26px;
+}
+
+.menu__link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    height: 51px;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo {
+    height: 613px;
+    background-color: #e8e8e8;
+}
+
+.promo__h4 {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 33px;
+}
+
+.promo__h3 {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.promo__text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.promo__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(img/promo_back.jpg);
+    background-position: 0 -52px;
+}
+
+.offer__item {
+    background-color: #ccc;
+    width: 560px;
+}
+
+.offer__item:first-of-type {
+    margin-bottom: 20px;
+}
+
+.offer__item_big {
+    height: 542px;
+}
+
+.offer__item_mini {
+    height: 261px;
+    background-color: #dadad2;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.search {
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 307px;
+    padding-left: 10px;
+}
+
+.search-mini {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    padding: 13px 12px 13px 11px;
+}
+
+h2 {
+    text-align: center;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fetured {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fetured__item {
+    height: 376px;
+    width: 260px;
+    margin-bottom: 40px;
+}
+
+.description {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 14px;
+}
+
+.price {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 14px;
+}
+
+.fetured__button {
+    border: 1px solid #ffffff;
+    background: none;
+    color: #ffffff;
+    width: 125px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 10px 5px 5px;
+    text-align: center;
+    display: none;
+}
+
+.fetured_img {
+    height: 280px;
+    width: 260px;
+}
+
+.fet_text {
+    margin-top: 15px;
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.browse {}
+
+.shadow {
+    background: rgba(58, 56, 56, 0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 280px;
+}
+
+.fetured__item:hover .fetured__button {
+    display: block;
+}
+
+.fetured__item:hover .shadow{
+    background: rgba(58, 56, 56, 0.7);
+}
+
+.fetured__item:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}

@@ -188,18 +188,16 @@ body
   width: 260px
   margin-bottom: 40px
   position: relative
-
-
-.product:hover .product__add 
-  display: block
-
-
-.product:hover .product__img 
-  filter: brightness(50%)
-
-
-.product:hover 
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+  &__h3
+    text-align: center
+    font-weight: 300
+    font-size: 20px
+  &:hover &__add
+    display: block
+  &:hover &__img
+    filter: brightness(50%)
+  &:hover
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
 
 
 .fet_text 
@@ -617,6 +615,7 @@ li
   font-size: 24px
   font-weight: 400
   text-transform: uppercase
+  letter-spacing: 0.9px
 
 
 .breadcrumbs__content 
@@ -627,42 +626,33 @@ li
 
 .card 
   border: 1px solid #eaeaea
-
-
-.card__h3 
-  color: $color-site
-  font-size: 14px
-  font-weight: 700
-  text-transform: uppercase
-
+  margin-bottom: 30px
+  &__h3
+    color: $color-site
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
 
 .breadcrumb 
   display: flex
   margin: 0
   padding: 0
-
-
-.breadcrumb__item 
-  color: #636363
-  font-weight: 300
-  font-size: 14px
-  text-transform: uppercase
-
-
-.breadcrumb__item_acitve 
-  color: $color-site
-  font-weight: 700
-
+  &__item
+    color: #636363
+    font-weight: 300
+    font-size: 14px
+    text-transform: uppercase
+  &__item_acitve
+    color: $color-site
+    font-weight: 700
 
 .breadcrumb li 
   display: inline-block
-
 
 .breadcrumb li::before 
   content: '/'
   margin-left: 5px
   margin-right: 5px
-
 
 .breadcrumb li:first-child::before 
   content: ''
@@ -670,7 +660,6 @@ li
 .slider 
   border: 1px solid #eaeaea
   background-color: #f7f7f7
-
 
 .slider__content 
   display: flex
@@ -731,6 +720,8 @@ li
   font-weight: 700
   padding-left: 206px
   padding-right: 206px
+  padding-top: 10px
+  padding-bottom: 10px
 
 .table__header
   color: #222222
@@ -877,26 +868,77 @@ td
   text-align: center
   background-color: #ffffff
   padding: 10px 25px 10px 25px
+  &:hover
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
 
 .registration
-  margin-top: 50px
+  margin-top: 20px
   display: flex
-  justify-content: space-between
+  flex-direction: column
+  &__fields
+    display: flex
+    justify-content: space-between
+  &__content
+    margin-top: 20px
+    padding-left: 30px
+    margin-right: 200px
+  &__radio
+    margin-top: 30px
+    margin-bottom: 30px
   &__h3
     font-size: 16px
     font-weight: 700
     color: #222222
     text-transform: uppercase
     line-height: 30px
+    padding-left: -30px
   &__big
     text-transform: uppercase
     line-height: 20px
     color: #222222
     font-size: 13px
+  &__mid
+    font-size: 12px
+    font-weight: 700
+    line-height: 20px
+    text-align: left
+    color: #222222
+    margin-bottom: 15px
   &__small
     font-size: 13px
     line-height: 20px
     color: #b3b2b2
-
-.checkbox
-  padding-right: 10px
+  &__ul
+    margin-top: 30px
+    margin-bottom: 30px
+  &__input
+    border: solid 1px #eaeaea
+    background-color: #ffffff
+    width: 380px
+    height: 25px
+    padding: 5px
+    margin-bottom: 15px
+  &__required
+    font-size: 13px
+    line-height: 20px
+    color: #ff0d0d
+  &__buttons
+    margin-left: 30px
+    display: flex
+    justify-content: space-between
+    width: 670px
+  &__href
+    font-size: 14px
+    line-height: 20px
+    color: #222222
+    font-weight: 700
+  &__article
+    border-bottom: 1px solid #e8e8e8
+    padding: 30px
+.radio
+  width: 30px
+  &__text
+    font-size: 12px
+    color: #222222
+    font-weight: 700
+    text-transform: uppercase

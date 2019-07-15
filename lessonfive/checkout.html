@@ -108,20 +108,54 @@
 </div>
 <table>
 <section class="registration container">
-    <article>
+    <article class="registration__article">
+        <h3 class="registration__h3">01. Shipping Adress</h3>
         <div class="registration__fields">
-            <h3 class="registration__h3">01. Shipping Adress</h3>
-            <p class="registration__big">Check as a guest or register</p>
-            <p class="registration__small">Register with us for future convenience</p>
-            <p><input name="radio" type="radio" value="guest" class="radio">checkout as guest</p>
-            <p><input name="radio" type="radio" value="register" class="radio radio_active">register</p>
-            <p class="registration__big">register and save time!</p>
-            <ul>
-            <li class="registration__small">Register with us for future convenience</li>
-            <li class="registration__small">Register with us for future convenience</li>
-            </ul>
-            <a href="#" class="button__white">Continue</a>
+                <div class="registration__content">
+                <p class="registration__big">Check as a guest or register</p>
+                <p class="registration__small">Register with us for future convenience</p>
+                <div class="registration__radio">
+                    <input name="radio" type="radio" value="guest" class="radio"><span class="radio__text">checkout as guest</span>
+                        <br><input name="radio" type="radio" value="register" class="radio radio_active"><span class="radio__text">register</span></p>
+                </div>
+                <p class="registration__big">register and save time!</p>
+                <p class="registration__small">Register with us for future convenience</p>
+                <ul class="registration__ul">
+                <li class="registration__small">Register with us for future convenience</li>
+                <li class="registration__small">Register with us for future convenience</li>
+                </ul>
+            </div>
+            <div class="registration__content">
+                <p class="registration__big">Already registed?</p>
+                <p class="registration__small">Please log in below</p>
+                <p class="registration__mid">EMAIL ADDRESS<span class="registration__required"> *</span></p>
+                <input type="email" class="registration__input">
+                <p class="registration__mid">PASSWORD<span class="registration__required"> *</span></p>
+                <input type="email" class="registration__input">
+                <p class="registration__required">* Required Fileds</p>
+            </div>
         </div>
+            <div class="registration__buttons">
+                <div><a href="#" class="button__white">Continue</a></div>
+                <div><a href="#" class="button__white">Log In</a>
+                <a href="#" class="registration__href">Forgot Password ?</a>
+                </div>
+            </div>
+    </article>
+    <article class="registration__article">
+        <h3 class="registration__h3">02. Billing Information</h3>
+    </article>
+    <article class="registration__article">
+        <h3 class="registration__h3">03. Shipping Information</h3>
+    </article>
+    <article class="registration__article">
+        <h3 class="registration__h3">04. Shipping Method</h3>
+    </article>
+    <article class="registration__article">
+        <h3 class="registration__h3">05. Payment Method</h3>
+    </article>
+    <article class="registration__article">
+        <h3 class="registration__h3">06. Order Review</h3>
     </article>
 </section>
 </table>
